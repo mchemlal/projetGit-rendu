@@ -1,0 +1,34 @@
+{
+  "name": "chat_sockets_io",
+  "version": "1.0.0",
+  "description": "chat réalisé par Socket.io",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchemlal/Chat_Sockets_io.git"
+  },
+  "keywords": [
+    "chat",
+    "socket",
+    "socket.io",
+    "node",
+    "node.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchemlal/Chat_Sockets_io/issues"
+  },
+  "homepage": "https://github.com/mchemlal/Chat_Sockets_io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
